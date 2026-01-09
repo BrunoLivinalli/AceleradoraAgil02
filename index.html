@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Galeria de Fotos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Ícone de lupa -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Galeria de Fotos</h1>
+    </header>
+
+    <main>
+        <!-- Barra de busca -->
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Pesquisar fotos..." />
+            <button>
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+
+        <!-- Galeria -->
+        <div class="gallery" id="gallery"></div>
+
+        <!-- Mensagem de erro -->
+        <div class="no-results" id="noResults" style="display: none;">
+            <p>Nenhuma foto encontrada</p>
+        </div>
+    </main>
+        <!-- Footer com © -->
+    <footer>
+        <p>© 2026 Galeria de Fotos. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
